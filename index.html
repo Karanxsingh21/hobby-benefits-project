@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hobby Benefits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <h2>📚 My Hobby: Reading</h2>
+    <p>Reading improves knowledge, reduces stress, and enhances focus.</p>
+
+    <input type="text" id="benefitInput" placeholder="Enter a benefit">
+    <button onclick="addBenefit()">Add</button>
+
+    <ol id="benefitList"></ol>
+
+    <hr>
+
+    <h3>Contact Us</h3>
+    <form onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="email" placeholder="Your Email" required><br><br>
+      <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+      <p id="dateTime"></p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
